@@ -1,0 +1,81 @@
+html{
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.lh{
+    display: flex;
+    height: 60px;
+    
+}
+.ch{
+    width: 400px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-evenly;
+    color: #5E7094;
+}
+.rh{
+    display: flex;
+    width: 300px;
+    font-size: 15px;
+    justify-content: space-evenly;
+    color: #5E7094;
+}
+.tp{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.gdoc{
+    height: 130px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+       
+}
+.lcol{
+    width: 50%;
+}
+.tlcol , .blcol{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+.bp{
+    display: flex;
+
+}
+.trcol{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+button:hover{
+    background-color: #6cdab9;
+    color: black;
+}
+
+
+
